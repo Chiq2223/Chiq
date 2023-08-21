@@ -1,0 +1,136 @@
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Apply a background color and text color to the entire page */
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Style the header section */
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* Style the navigation links */
+nav {
+    margin-bottom: 0px;
+}
+
+.habout {
+    text-align: left;
+}
+
+.hproject {
+    text-align: right;
+}
+
+nav a {
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+
+/* Style the header content */
+.header-content {
+    margin-top: 20px;
+}
+.header-content h1 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.header-content p {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* Style the main content area */
+main {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image-and-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.image-and-text-container img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-container h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.text-container p {
+    font-style: arial;
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style individual project containers */
+.Project {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Style project images */
+.Project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add spacing between projects */
+.Project + .Project {
+    margin-left: 20px;
+}
+
+/* Style project titles */
+.Project h3, .Project h4, .Project h5 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+}
+

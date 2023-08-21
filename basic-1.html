@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TDO</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>TDO</h1>
+            <p>Most Comfortable Clothes Made Here</p>
+        </div>
+        <nav class="about">
+            <a href="#about">About Us</a>
+        </nav>
+        <nav class="project">    
+            <a href="#project">Projects</a>
+        </nav>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="image-and-text-container">
+                <img src="TDO.jpg" alt="TDO">
+                <div class="text-container">
+                    <h2>ABOUT US</h2>
+                    <P> TDO T-SHIRT adalah tempat produksi baju yang berlokasi di Yogyakarta. 
+                        Kami menawarkan kaos berkualitas tinggi dengan harga terjangkau. 
+                        Kami menggunakan kain premium cotton combed untuk kenyamanan dan penyerapan kelembaban yang luar biasa. 
+                        Komitmen kami adalah meningkatkan gaya dan kenyamanan. 
+                        Kunjungi kami untuk meningkatkan gaya berpakaian Anda.</P>
+            </div>    
+        </section>
+        <section id="project">
+            <div id="project1" class="Project" onclick="toggleDetails('project1'); showSlides('project1')">
+                <a href="#Kaospolos">
+                    <div class="project-slide">
+                        <img src="ikonkaos.jpg" alt="Project 1 Slide 1">
+                    </div>
+                    <div class="project-slide" style="display: none;">
+                        <img src="ikonreglen.jpg" alt="Project 1 Slide 2">
+                    </div>
+                </a>
+                <h3>Kaos Polos</h3>
+            </div>            
+            
+            <div class="Project" onclick="toogleDetails('project2')">
+                <a href="#Kaosreglen"></a>    
+                    <img src="ikonreglen.jpg" alt="Project 2">
+                </a>
+                <h4>Kaos Reglen</h4>
+            </div>
+            
+            <div class="Project" onclick="toogleDetails('project3')">
+                <a href="#Kaospolo"></a>
+                    <img src="ikonpolo.jpg" alt="Project 3">
+                </a>
+                <h5>Kaos Polo</h5>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
