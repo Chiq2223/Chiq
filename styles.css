@@ -21,26 +21,6 @@ header {
     max-width: 100%;
 }
 
-/* Style the navigation links */
-nav {
-    margin-bottom: 0px;
-}
-
-.habout {
-    text-align: left;
-}
-
-.hproject {
-    text-align: right;
-}
-
-nav a {
-    color: rgb(13, 13, 13);
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-
 
 /* Style the header content */
 .header-content {
@@ -60,7 +40,7 @@ nav a {
 
 /* Style the main content area */
 main {
-    max-width: 1700px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
 }
